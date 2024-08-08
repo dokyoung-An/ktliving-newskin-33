@@ -233,7 +233,7 @@
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max tilt="90" scaletofit="1" fovstereographic="330" fovfisheye="360" pan="360" fov="140"/>
     </view>
-    <userdata customnodeid="" heading="0" description="밤" nodeid="node1" copyright="" title="침실" comment="" longitude="" tags="33|가구ON" author="" latitude="" source="" info="" datetime=""/>
+    <userdata customnodeid="" heading="0" description="밤" nodeid="node1" copyright="" title="침실" comment="" longitude="" tags="33|가구OFF|가구ON" author="" latitude="" source="" info="" datetime=""/>
     <hotspots width="180" smoothmovement="0" wordwrap="1" height="20">
       <label background="1" width="180" borderradius="1" textalpha="1" height="20" enabled="1" backgroundcolor="0xffffff" textcolor="0x000000" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" wordwrap="1" border="1"/>
       <polystyle handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" bordercolor="0x0000ff"/>
