@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: ??? ????33(??).ggsk
-// Generated 2024-08-08T18:06:50
+// Generated 2024-08-08T18:21:35
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_minimap_button', 2, false, { ignoreInState: 0  });
@@ -143,7 +143,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 87%;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
-		hs+='top : 35px;';
+		hs+='top : 20px;';
 		hs+='visibility : inherit;';
 		hs+='width : 10%;';
 		hs+='pointer-events:none;';
@@ -4746,7 +4746,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 87%;';
 		hs+='position : absolute;';
 		hs+='right : 34px;';
-		hs+='top : 35px;';
+		hs+='top : 20px;';
 		hs+='visibility : inherit;';
 		hs+='width : 10%;';
 		hs+='pointer-events:none;';
@@ -10257,6 +10257,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
+		hs+='cursor : pointer;';
 		hs+='height : 100%;';
 		hs+='left : 80%;';
 		hs+='position : absolute;';
@@ -10280,6 +10281,15 @@ function pano2vrSkin(player,base) {
 		}
 		me._m13.onclick=function (e) {
 			player.setVariableValue('vis_info_button', !player.getVariableValue('vis_info_button'));
+			me._m18.style.transition='none';
+			me._m18.style.visibility='hidden';
+			me._m18.ggVisible=false;
+			me._m11.style.transition='none';
+			me._m11.style.visibility='hidden';
+			me._m11.ggVisible=false;
+			me._m.style.transition='none';
+			me._m.style.visibility='hidden';
+			me._m.ggVisible=false;
 		}
 		me._m13.ggUpdatePosition=function (useTransition) {
 		}
@@ -10357,7 +10367,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='color : rgba(0,0,0,0.470588);';
-		hs+='cursor : default;';
+		hs+='cursor : pointer;';
 		hs+='height : 20px;';
 		hs+='left : calc(50% - ((100px + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
@@ -10369,7 +10379,6 @@ function pano2vrSkin(player,base) {
 		el.style.transformOrigin='50% 50%';
 		hs ='';
 		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
 		hs+='width: 100%;';
 		hs+='height: auto;';
 		hs+='max-height: 100%;';
@@ -10423,7 +10432,7 @@ function pano2vrSkin(player,base) {
 		hs+='border : 0px solid #000000;';
 		hs+='bottom : -20px;';
 		hs+='color : rgba(255,255,255,1);';
-		hs+='cursor : default;';
+		hs+='cursor : pointer;';
 		hs+='height : 20px;';
 		hs+='left : calc(50% - ((100px + 0px) / 2) + 0px);';
 		hs+='position : absolute;';
@@ -10434,7 +10443,6 @@ function pano2vrSkin(player,base) {
 		el.style.transformOrigin='50% 50%';
 		hs ='';
 		hs += 'box-sizing: border-box;';
-		hs+='cursor: default;';
 		hs+='width: 100%;';
 		hs+='height: auto;';
 		hs+='max-height: 100%;';
